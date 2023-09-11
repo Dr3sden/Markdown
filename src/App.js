@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import {marked} from 'marked';
+import './App.css'; 
 
-export default function Markdown(){
+export default function Markdown() {
   const [text, setText] = useState('');
 
   useEffect(() => {
@@ -13,14 +14,15 @@ export default function Markdown(){
   }, [text]);
 
   return (
-    <div>
+    <div className="markdown-container">
       <textarea
         id="editor"
+        className="markdown-textarea"
         onChange={(e) => setText(e.target.value)}
         value={text}
         placeholder="Enter GitHub flavored markdown..."
       />
-      <div id="preview"></div>
+      <div id="preview" className="markdown-preview"></div>
     </div>
   );
 }
