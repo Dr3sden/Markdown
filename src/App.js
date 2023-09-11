@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import {marked} from 'marked';
 
-function App() {
+export default function Markdown(){
+  const [text, setText] = useState('');
+
+  useEffect(() => {
+    // Parse Markdown text using marked and update the preview
+    const preview = document.getElementById('preview');
+    if (preview) {
+      preview.innerHTML = marked(text);
+    }
+  }, [text]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <textarea
+        id="editor"
+        onChange={(e) => setText(e.target.value)}
+        value={text}
+        placeholder="Enter GitHub flavored markdown..."
+      />
+      <div id="preview"></div>
     </div>
   );
 }
-
-export default App;
