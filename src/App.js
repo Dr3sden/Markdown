@@ -20,7 +20,7 @@ function ejemplo() {
 **Texto en negrita**
 `;
 
-export default function Markdown() {
+export default function App() {
   const [text, setText] = useState(defaultMarkdownText);
 
   useEffect(() => {
