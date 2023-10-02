@@ -1,9 +1,27 @@
 import React, { useState, useEffect } from "react";
 import {marked} from 'marked';
-import './App.css'; 
+import './App.css';
+
+const defaultMarkdownText = `
+# Título (H1)
+## Subtítulo (H2)
+Un [enlace](https://www.example.com/)
+Texto con \`código en línea\`
+\`\`\`
+// Bloque de código
+function ejemplo() {
+  return "Hola, mundo!";
+}
+\`\`\`
+- Elemento de lista 1
+- Elemento de lista 2
+> Esto es una cita (blockquote)
+![Texto alternativo de una imagen](https://www.example.com/image.jpg)
+**Texto en negrita**
+`;
 
 export default function Markdown() {
-  const [text, setText] = useState('');
+  const [text, setText] = useState(defaultMarkdownText);
 
   useEffect(() => {
     // Parse Markdown text using marked and update the preview
@@ -25,4 +43,4 @@ export default function Markdown() {
       <div id="preview" className="markdown-preview"></div>
     </div>
   );
-} //sadkfjskdf
+}

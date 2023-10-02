@@ -1,0 +1,56 @@
+5. When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a header (H1 size), a sub header (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text
+
+#editor does not contain any text : expected '' to not equal ''
+a@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:82:477
+FCC_Global</e.exports/o.prototype.assert@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:516:1451
+h@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:531:2123
+u@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:407:130
+FCC_Global</e.exports/n.notStrictEqual@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:556:736
+FCC_Global</test/</</<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:581:158803
+FCC_Global</</a/Kb.prototype.run/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:265267
+FCC_Global</</a/Kb.prototype.run@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:265562
+FCC_Global</</a/CC.prototype.runTest@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:280528
+FCC_Global</</a/CC.prototype.runTests/i/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:281464
+o@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279867
+FCC_Global</</a/CC.prototype.hooks/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279938
+o@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:278686
+FCC_Global</</a/CC.prototype.hook/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279752
+Qv@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:581:14064
+
+6. When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element
+
+#preview should have inner HTML : expected '' to not equal ''
+a@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:82:477
+FCC_Global</e.exports/o.prototype.assert@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:516:1451
+h@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:531:2123
+u@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:407:130
+FCC_Global</e.exports/n.notStrictEqual@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:556:736
+FCC_Global</test/</</<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:581:159661
+FCC_Global</</a/Kb.prototype.run/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:265267
+FCC_Global</</a/Kb.prototype.run@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:265562
+FCC_Global</</a/CC.prototype.runTest@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:280528
+FCC_Global</</a/CC.prototype.runTests/i/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:281464
+o@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279867
+FCC_Global</</a/CC.prototype.hooks/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279938
+o@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:278686
+FCC_Global</</a/CC.prototype.hook/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279752
+Qv@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:581:14064
+
+7. OPTIONAL BONUS (you do not need to make this test pass): My markdown previewer interprets carriage returns and renders them as <br> (line break) elements (HINT: read the Marked.js docs for this one!).
+
+See the marked.js options for this and other cool features : expected +0 to equal 2
+a@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:82:477
+FCC_Global</e.exports/o.prototype.assert@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:516:1451
+h@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:531:2123
+u@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:407:130
+FCC_Global</e.exports/n.strictEqual@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:556:655
+FCC_Global</test/</</<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:581:161754
+FCC_Global</</a/Kb.prototype.run/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:265267
+FCC_Global</</a/Kb.prototype.run@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:265562
+FCC_Global</</a/CC.prototype.runTest@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:280528
+FCC_Global</</a/CC.prototype.runTests/i/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:281464
+o@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279867
+FCC_Global</</a/CC.prototype.hooks/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279938
+o@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:278686
+FCC_Global</</a/CC.prototype.hook/<@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:575:279752
+Qv@https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:581:14064
