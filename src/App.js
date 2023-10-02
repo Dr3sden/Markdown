@@ -43,4 +43,4 @@ export default function Markdown() {
       <div id="preview" className="markdown-preview"></div>
     </div>
   );
-}
+};
